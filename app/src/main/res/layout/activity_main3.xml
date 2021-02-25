@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg"/>
+        <ImageView
+            android:id="@+id/imgSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/second"/>
+        <ImageView
+            android:id="@+id/imgMinute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/minute"/>
+        <ImageView
+            android:id="@+id/imgHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hour"/>
+
+
+
+    </RelativeLayout>
+    <Button
+        android:onClick="Run"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Run"/>
+
+</LinearLayout>
